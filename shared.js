@@ -34,10 +34,3 @@ toggleButton.addEventListener('click',function(){
 	mobileNav.style.display='block';
 	backdrop.style.display='block';
 })
-
-
-
-
-
-
-
