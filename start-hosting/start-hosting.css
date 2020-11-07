@@ -1,0 +1,115 @@
+
+main{
+	padding-top: 3rem;
+}
+
+.signup-page{
+	height: 100vh;
+}
+
+.signup-title{
+	text-align: center;
+	color: #ff1b68;
+}
+.signup-form{
+	padding: 1rem;
+}
+
+.signup-form label{
+   font-weight: bold;
+}
+
+.signup-form select,
+.signup-form label,
+.signup-form input{
+	display: block;
+	margin-top: 0.5rem;
+	width: 100%;
+
+}
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+	margin-top: 0.5rem;
+	display: inline-block;
+	width: auto;
+	vertical-align: bottom;
+}
+
+.signup-form button[type="submit"]{
+	display: block;
+	margin-top: 1rem;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+	font: inherit;
+	padding: 0.2rem 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.signup-form input:not([type="checkbox"]):focus,
+.signup-form select:focus{
+ background: #d8f3df;
+ outline: none;
+ border-color: #2ddf5c;
+}
+
+.signup-form input[type:checkbox]{
+	 border: 1px solid #ccc;
+	 background: white;
+	 width: 1rem;
+	 height: 1rem;
+	 border-radius: 50%;
+} 
+
+
+.signup-form :invalid {
+  border-color: red;
+  background: #faacac;
+}
+
+@media(min-width: 40rem){
+	.signup-form{
+		margin: auto;
+		width: 25rem;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
